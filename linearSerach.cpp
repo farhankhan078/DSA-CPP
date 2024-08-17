@@ -16,7 +16,7 @@ int main(){
     cin>>x;
     for(i=0;i<n;i++){
         if(a[i]==x){
-            cout<<"Element Found: ";
+            cout<<"Element Found at: "<<i;
             break;
         }
     }
