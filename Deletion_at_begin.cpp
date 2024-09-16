@@ -21,10 +21,14 @@ int main()
       a[i]=  a[i+1];
     }
    n--;
-    cout<<"\nAfter Deletion: ";
-    for(i=0;i<n;i++)
-    {
-        cout<<a[i]<<"\t";
+
+   cout << "\nAfter Deletion: ";
+    if (n == 0) {
+        cout << "Array is empty after deletion." << endl;
+    } else {
+        for(i = 0; i < n; i++) {
+            cout << a[i] << "\t";
+        }
     }
 
 return 0;
